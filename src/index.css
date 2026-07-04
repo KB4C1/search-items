@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  @keyframes btn-hover {
+    0% {
+      scale: 0.95;
+    }
+    100% {
+      scale: 1.05;
+    }
+  }
+  --animate-btn-hover: btn-hover 0.3s ease-in-out forwards;
+  --breakpoint-xs: 475px;
+}
+
+body {
+  background-color: #e2e2e2;
+}
